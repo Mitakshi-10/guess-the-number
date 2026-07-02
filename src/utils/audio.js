@@ -148,6 +148,14 @@ class SoundEffects {
     }
   }
 
+  stopAllScenarios() {
+    for (const key in this.audioCache) {
+      const audioEl = this.audioCache[key];
+      audioEl.pause();
+      audioEl.currentTime = 0;
+    }
+  }
+
   playScenario(key, synthCallback) {
     if (this.muted) return;
     this.init();

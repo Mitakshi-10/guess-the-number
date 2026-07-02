@@ -19,7 +19,6 @@ export default function GameBoard({ onGuess, feedback, lastGuess, target, range 
       return; // Add validation warning if needed
     }
     
-    audio.playClick();
     onGuess(num);
     setGuess('');
     if (inputRef.current) {

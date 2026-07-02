@@ -104,6 +104,7 @@ function App() {
 
   const handleRestart = () => {
     audio.stopBgMusic();
+    audio.stopAllScenarios();
     setGameStarted(false);
     setShowSuccess(false);
     setFeedback(null);
