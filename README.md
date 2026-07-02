@@ -1,16 +1,40 @@
-# React + Vite
+# 🎯 Guesser — Interactive Number Guessing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Can you read minds?** (No? Me neither.) But with a little logic and some luck, you can guess the secret number!
 
-Currently, two official plugins are available:
+Pick a range, start guessing, and get feedback — **Too High** 📈, **Too Low** 📉, or a glorious **Correct!** 🎉 — complete with warmth indicators, sound effects, confetti, and a guess history.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **4 presets** — Easy (1–50), Medium (1–100), Hard (1–500), or **Custom** (you pick the range)
+- **Hot/Cold feedback** — "Scorching Hot!" 🔥 to "Ice Cold" ❄️ based on how close you are
+- **Sound effects** — Toggle on/off with the mute button 🔇
+- **Guess history** — Track all your attempts with color-coded badges
+- **Best score** — Persisted in local storage, so you can keep beating your record
+- **Confetti celebration** 🎊 when you nail it
+- **Glassmorphic UI** — Smooth, modern, and pretty
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the Oxlint configuration
+**👉 [Try it yourself!](https://guess-the-number-cyan-one.vercel.app/)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Built With
+
+- ⚛️ React 19
+- ⚡ Vite 8
+- 💅 Pure CSS (glassmorphism, animations, confetti)
+- 🔊 Web Audio API (sound synthesis + audio files)
+
+## 🧑‍💻 Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## 🏗️ Build
+
+```bash
+npm run build
+npm run preview
+```
